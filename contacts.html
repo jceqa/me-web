@@ -60,7 +60,7 @@
                 	<article class="grid_4">
                     	<h3>Redes Sociales</h3>
                         <div class="img-indent-bot">
-                            <a href=""><img class="nuestros_productos" src="images/facebook2.png" alt="" /></a>
+                            <a href="https://www.facebook.com/MULTIenvase-SA-158063054248197/"><img class="nuestros_productos" src="images/facebook2.png" alt="" /></a>
                             <div class="clear"></div>
                         </div>
                         <dl>
@@ -69,16 +69,16 @@
                         </dl>
                     </article>
                     <article class="grid_8">
-                    	<h3>Contactanos</h3>
-<!--                        <form id="contact-form" action="send.php" method="post" name="contacto" enctype="multipart/form-data">                    -->
-                        <form id="contact-form" method="post" name="contacto" enctype="multipart/form-data">                    
+                    	<h3>Contactanos</h3>	
+<!--                    <form id="contact-form" action="send.php" method="post" name="contacto" enctype="multipart/form-data">                    -->
+                        <form id="contact-form" method="post" name="contacto" enctype="multipart/form-data" action="send_email.php">                    
                             <fieldset>
-                                  <label><span name="nombre" class="text-form">Nombre:</span><input type="text"></label>
-                                  <label><span name="email" class="text-form">Email:</span><input type="text"></label>                              
+                                  <label><span name="nombre" class="text-form">Nombre:</span><input name="nombre-input" type="text"></label>
+                                  <label><span name="email" class="text-form">Email:</span><input name= "email-input" type="text"></label>                              
                                   <div class="wrapper">
                                     <div class="text-form">Mensaje:</div>
                                     <div class="extra-wrap">
-                                        <textarea name="opinion"></textarea>
+                                        <textarea name="opinion-input"></textarea>
                                         <div class="clear"></div>
                                         <div class="buttons">
                                             <a class="button" onClick="document.getElementById('contact-form').reset()"><span>cancelar</span></a>
@@ -87,20 +87,14 @@
                                     </div>
                                   </div>                            
                             </fieldset>						
-                        </form>
-                        
-<!--
-                        <form name="form1" method="post" action="mailto:ysapymimbi@gmail.com">
+                        </form>                    
+						<!--<form name="form1" method="post" action="mailto:ysapymimbi@gmail.com">
                             <label for="nombre">Nombre: </label><input type="text" name="nombre" id="nombre"><br />
                             <label for="email">Email: </label><input type="text" name="nombre" id="email"><br />
                             &iquest;Qu&eacute; te pareci&oacute; la p&aacute;gina?<br />
                             <textarea id="opinion" name="opinion"></textarea><br />
                             <input type="submit" name="Submit" value="Enviar">
-                        </form>
--->
-                        
-                        
-                        
+                        </form>-->  
                     </article>
                 </div>
             </div>
